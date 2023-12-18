@@ -15,21 +15,21 @@
   background-color: var(--font-color-gray);
 }
 
-.nav__list {
+.nav-list {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav__link {
+.nav-link {
   position: relative;
   color: var(--font-color-gray);
   font-size: 18px;
   font-weight: 700;
 }
 
-.nav__link:after {
+.nav-link:after {
   content: '';
   position: absolute;
   left: 0;
@@ -40,11 +40,11 @@
   transition: right .22s;
 }
 
-.nav__link:hover {
+.nav-link:hover {
   color: var(--color-main-black);
 }
 
-.nav__link:hover::after {
+.nav-link:hover::after {
   right: 0;
 }
 
