@@ -37,6 +37,45 @@
     </div>
   </header>
 
+
+
+  <div class="mobile-navigation" aria-label="mobile-navigation">
+    <label for="toggler-id" aria-label="open-close mobile-navigation menu">
+      <svg class="mobile-navigation-burger" aria-label="burger icon">
+        <use href="assets/sprites.svg#burger-icon">
+        </use>
+      </svg>
+    </label>
+
+    <input class="mobile-navigation-toggler" id="toggler-id" type="checkbox">
+    <nav class="mobile-navigation-menu" aria-label="mob header navigation">
+      <ul class="mobile-navigation-list" aria-label="mob header navigation list">
+        <li>
+          <a class="mobile-navigation-link" aria-label="link to home" href="#home-id">Home</a>
+        </li>
+        <li>
+          <a class="mobile-navigation-link" aria-label="link to about" href="#about-id">About</a>
+        </li>
+        <li>
+          <a class="mobile-navigation-link" aria-label="link to history" href="#history-id">History</a>
+        </li>
+        <li>
+          <a class="mobile-navigation-link" aria-label="link to portfolio" href="#portfolio-id">Portfolio</a>
+        </li>
+        <li>
+          <a class="mobile-navigation-link" aria-label="link to contacts" href="#contacts-id">Contacts</a>
+        </li>
+      </ul>
+      <label class="mobile-navigation-close" for="toggler-id" aria-label="open-close mobile-navigation menu">
+        <svg class="mobile-navigation-cross" aria-label="cross icon">
+          <use href="assets/sprites.svg#cross-icon">
+          </use>
+        </svg>
+      </label>
+
+    </nav>
+  </div>
+
   <main class="main" aria-label="main">
     <section class="hero" aria-label="hero section" id="hero-id">
       <div class="container">
@@ -102,9 +141,11 @@
   <footer class="contacts" aria-label="contacts section" id="contacts-id">
     <div class="container">
       <h2 class="contacts-title">Contacts</h2>
-      <button class="contacts-btn">
+
+      
+       <button class="contacts-btn">
         <a class="btn-link" href="https://ayvazovskiy.su" target="_blank">ayvazovskiy.su</a>
-      </button>
+      </button> 
 
       <address class="socials" aria-label="socials-icon">
         <a href="https://www.youtube.com/" target="_blank" aria-label="link to youtube">
